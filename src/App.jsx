@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import styles from "./App.module.css";
 import Navbar from "./components/Navbar/Navbar.jsx"
@@ -19,6 +20,15 @@ const App = () => {
     <Project/>
     <Contact/>
     <Footer/>
+=======
+import React from 'react'
+import Weather from './components/Weather'
+
+const App = () => {
+  return (
+    <div className='app'>
+      <Weather />
+>>>>>>> 145e06e (first commit)
     </div>
   )
 }
